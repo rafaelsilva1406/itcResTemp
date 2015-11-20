@@ -1,0 +1,97 @@
+/*Globals*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*Custom */
+body{
+	background:rgba(0,0,0,1) no-repeat radial-gradient(circle closest-side,white,#000);
+	background-size: 100%;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	color:#fff;
+	font-family:'Open Sans',sans-serif;
+	height:100%;
+}
+#splash{
+	background: url("../img/SplashBackground.png") no-repeat;
+	background-size: 100%;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/SplashBackground.png",     sizingMethod='scale'); /* IE */
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/SplashBackground.png", sizingMethod='scale'); /* IE */
+	width:100%;
+	height:100%;
+	position:fixed;
+}
+.topBox{
+	margin-top:150px;
+}
+.topBox > span{
+	width:150px;
+	display:block;
+	font-size: 14px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:rgba(229, 31, 31, 1);
+	text-shadow: 0px 0px 8px #000, 0 0 2px #000;
+}
+.bottomBox{
+	margin-top:5px;
+}
+.floatingBtn{
+	border-radius:8px;
+	background:rgba(255,255,255,0);
+	outline:none;
+	border:2px solid rgba(221,221,221,1);
+	width:150px;
+	height:50px;
+	color:rgba(221,221,221,1);
+}
+button.floatingBtn:hover{
+	border:2px solid #fff;
+	box-shadow: inset 0 0 0 5px #fff;
+	color:#fff;
+}
+#page-content{
+	display:none;
+	margin-top:20px;
+}
+.nav > .active > a.link-c, .nav > li > a.link-a:focus, .nav > li > a.link-a:hover{
+	box-shadow: inset 0 0 0 5px rgb(159, 218, 239);
+	background-color:transparent;
+	color:rgb(159, 218, 239);
+}
+.nav > .active > a.link-c, .nav > li > a.link-f:focus, .nav > li > a.link-f:hover{
+	box-shadow: inset 0 0 0 5px rgb(131, 206, 3);
+	background-color:transparent;
+	color:rgb(131, 206, 3);
+}
+.nav > .active > a.link-c, .nav > li > a.link-c:focus, .nav > li > a.link-c:hover{
+	box-shadow: inset 0 0 0 5px rgb(247, 233, 105);
+	background-color:transparent;
+	color:rgb(247, 233, 105);
+}
+/*Boostrap Mods*/
+.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	background-color:transparent;
+	bolder-color:transparent;
+	color:#fff;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+	text-shadow: 0px 0px 8px #fff, 0 0 2px #fff;
+	background-color:transparent;
+	border:0px solid transparent;
+}
+
+.nav a{
+	color:#fff;
+}
