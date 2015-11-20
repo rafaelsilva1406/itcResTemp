@@ -1,3 +1,8 @@
+/*
+* Version: 1.0
+* Author: rafael silva
+* Description: Code below help UI effects for splash & pages
+*/
 (function($){
 	/*
 	* Method: ready
@@ -12,7 +17,6 @@
 			var $this = $(this);
 			$("#splash").css("display","none");
 			$("#page-content").css("display","block");
-			console.log("click");
 			return false;
 		});
 		animMod(1500);

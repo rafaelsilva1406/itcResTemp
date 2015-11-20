@@ -3,6 +3,7 @@
 
 /*Custom */
 body{
+	background-color:#000;
 	background:rgba(0,0,0,1) no-repeat radial-gradient(circle closest-side,white,#000);
 	background-size: 100%;
     -webkit-background-size: cover; /* For WebKit*/
